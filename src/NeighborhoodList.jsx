@@ -6,8 +6,9 @@ const NeighborhoodList = props => (
         <h1 className='hood'>Your Recommended Neighborhoods</h1>
 
         <div className="Tripflex">
-
+                
             <Link to={`/show/`}> {' '}
+            
                 <h1 className="tripname"> {props.lists[0]}</h1>
             </Link>
 
